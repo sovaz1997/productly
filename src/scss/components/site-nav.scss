@@ -1,0 +1,9 @@
+.site-nav {
+  display: flex;
+  list-style: none;
+}
+
+.site-nav__item a {
+  @include setFont(15px, 28px, #2F281E);
+  text-decoration: none;
+}
