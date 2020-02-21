@@ -1,3 +1,16 @@
 .site-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+}
+
+.site-header__logo {
+  margin-right: 216px;
+}
+
+.site-header__nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
 }
